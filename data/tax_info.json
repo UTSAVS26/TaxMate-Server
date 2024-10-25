@@ -1,0 +1,384 @@
+{
+  "taxpayer": "Home Tax payer",
+  "category": "Salaried Individuals for AY 2024-25",
+  "deductions": {
+    "self_spouse_children": {
+      "amount": 25000,
+      "senior_citizen_amount": 50000,
+      "preventive_health_checkup": 5000
+    },
+    "parents": {
+      "amount": 25000,
+      "senior_citizen_amount": 50000,
+      "preventive_health_checkup": 5000
+    }
+  },
+  "returns_and_forms": {
+    "ITR-1": {
+      "applicable_for": "Individual",
+      "description": "This return is applicable for a Resident (other than Not Ordinarily Resident) Individual having Total Income from any of the following sources up to ₹ 50 lakh.",
+      "income_sources": [
+        "Salary / Pension",
+        "One House Property",
+        "Other sources (Interest, Family Pension, Dividend etc.)",
+        "Agricultural Income up to ₹ 5,000"
+      ],
+      "ineligibilities": [
+        "Director in a company",
+        "Held any unlisted equity shares",
+        "Assets located outside India",
+        "Signing authority in accounts outside India",
+        "Income from any source outside India",
+        "Tax deducted u/s 194N",
+        "Payment or deduction of tax deferred on ESOP",
+        "Brought forward loss or loss to be carried forward",
+        "Total income exceeding ₹ 50 lakhs"
+      ]
+    },
+    "ITR-2": {
+      "applicable_for": "Individual and HUF",
+      "description": "This return is applicable for Individual and Hindu Undivided Family (HUF) not having Income under the head Profits and Gains of Business or Profession."
+    },
+    "ITR-3": {
+      "applicable_for": "Individual and HUF",
+      "description": "This return is applicable for Individual and Hindu Undivided Family (HUF) having Income under the head Profits and Gains of Business or Profession."
+    },
+    "ITR-4": {
+      "applicable_for": "Individual, HUF and Firm (other than LLP)",
+      "description": "This return is applicable for an Individual or HUF who is Resident other than Not Ordinarily Resident or a Firm (other than LLP) which is a Resident having Total Income up to ₹ 50 lakh.",
+      "income_sources": [
+        "Salary / Pension",
+        "One House Property",
+        "Other sources (Interest, Family Pension, Dividend etc.)",
+        "Agricultural Income up to ₹ 5,000"
+      ],
+      "ineligibilities": [
+        "Director in a company",
+        "Held any unlisted equity shares",
+        "Assets located outside India",
+        "Signing authority in accounts outside India",
+        "Income from any source outside India",
+        "Payment or deduction of tax deferred on ESOP",
+        "Brought forward loss or loss to be carried forward",
+        "Total income exceeding ₹ 50 lakhs"
+      ]
+    }
+  },
+  "forms_applicable": {
+    "Form 12BB": {
+      "description": "Particulars of claims by an employee for deduction of tax (u/s 192)",
+      "provided_by": "Employee to his Employer(s)",
+      "details": "Evidence or particulars of HRA, LTC, Deduction of Interest on home loan, Tax Saving Claims / Deductions on eligible payments or investments for the purpose of calculating TDS."
+    },
+    "Form 16": {
+      "description": "Certificate of Tax Deducted at Source on Salary (U/s 203 of the Income Tax Act, 1961)",
+      "provided_by": "Employer(s) to his Employee at the end of the financial year",
+      "details": "Income of employee, Deductions / Exemptions and Tax Deducted at Source for computing Tax Payable / Refundable."
+    },
+    "Form 16A": {
+      "description": "Certificate u/s 203 of the Income Tax Act, 1961 for TDS on Income other than Salary",
+      "provided_by": "Deductor to Deductee",
+      "details": "Quarterly TDS certificate that captures the amount of TDS, Nature of Payments and the TDS Payments deposited."
+    },
+    "Form 67": {
+      "description": "Statement of Income from a country or specified territory outside India and Foreign Tax Credit",
+      "submitted_by": "Taxpayer on or before the due date specified for furnishing the ITRs u/s 139(1)",
+      "details": "Income from a country or specified territory outside India and Foreign Tax Credit claimed."
+    },
+    "Form 26AS": {
+      "provided_by": "Income Tax Department",
+      "details": "Tax Deducted / Collected at Source. Information regarding Advance Tax, Details of refund, SFT Transaction, TDS u/s 194 IA,194 IB,194M, TDS defaults."
+    },
+    "AIS": {
+      "provided_by": "Income Tax Department",
+      "details": "Tax Deducted / Collected at Source, SFT Information, Payment of taxes, Demand / Refund, Other information."
+    },
+    "Form 15G": {
+      "description": "Declaration by resident taxpayer (not being a Company or Firm) claiming certain receipts without deduction of tax",
+      "submitted_by": "A Resident Individual less than 60 years or HUF",
+      "details": "To Bank for not deducting TDS on Interest Income, if the income is below basic exemption limit."
+    },
+    "Form 15H": {
+      "description": "Declaration to be made by a resident individual (who is 60 years age or more) claiming certain receipts without deduction of tax",
+      "submitted_by": "A Resident Individual, 60 years or more",
+      "details": "To Bank for not deducting TDS on Interest Income."
+    },
+    "Form 10E": {
+      "description": "Form for furnishing particulars of Income for claiming relief u/s 89(1) when Salary is paid in arrears or advance",
+      "provided_by": "An Employee to the Income Tax Department",
+      "details": "Arrears / Advance Salary, Gratuity, Compensation on Termination, Commutation of Pension."
+    }
+  },
+  "tax_slabs": {
+    "old_tax_regime": {
+      "individuals_below_60": [
+        {
+          "income_slab": "Up to ₹ 2,50,000",
+          "tax_rate": "Nil"
+        },
+        {
+          "income_slab": "₹ 2,50,001 - ₹ 5,00,000",
+          "tax_rate": "5%"
+        },
+        {
+          "income_slab": "₹ 5,00,001 - ₹ 10,00,000",
+          "tax_rate": "20%"
+        },
+        {
+          "income_slab": "Above ₹ 10,00,000",
+          "tax_rate": "30%"
+        }
+      ],
+      "individuals_60_to_80": [
+        {
+          "income_slab": "Up to ₹ 3,00,000",
+          "tax_rate": "Nil"
+        },
+        {
+          "income_slab": "₹ 3,00,001 - ₹ 5,00,000",
+          "tax_rate": "5%"
+        },
+        {
+          "income_slab": "₹ 5,00,001 - ₹ 10,00,000",
+          "tax_rate": "20%"
+        },
+        {
+          "income_slab": "Above ₹ 10,00,000",
+          "tax_rate": "30%"
+        }
+      ],
+      "individuals_above_80": [
+        {
+          "income_slab": "Up to ₹ 5,00,000",
+          "tax_rate": "Nil"
+        },
+        {
+          "income_slab": "₹ 5,00,001 - ₹ 10,00,000",
+          "tax_rate": "20%"
+        },
+        {
+          "income_slab": "Above ₹ 10,00,000",
+          "tax_rate": "30%"
+        }
+      ]
+    },
+    "new_tax_regime": {
+      "individuals_below_60": [
+        {
+          "income_slab": "Up to ₹ 3,00,000",
+          "tax_rate": "Nil"
+        },
+        {
+          "income_slab": "₹ 3,00,001 - ₹ 6,00,000",
+          "tax_rate": "10%"
+        },
+        {
+          "income_slab": "₹ 6,00,001 - ₹ 9,00,000",
+          "tax_rate": "15%"
+        },
+        {
+          "income_slab": "₹ 9,00,001 - ₹ 12,00,000",
+          "tax_rate": "20%"
+        },
+        {
+          "income_slab": "Above ₹ 15,00,000",
+          "tax_rate": "30%"
+        }
+      ],
+      "individuals_60_to_80": [
+        {
+          "income_slab": "Up to ₹ 3,00,000",
+          "tax_rate": "Nil"
+        },
+        {
+          "income_slab": "₹ 3,00,001 - ₹ 6,00,000",
+          "tax_rate": "10%"
+        },
+        {
+          "income_slab": "₹ 6,00,001 - ₹ 9,00,000",
+          "tax_rate": "15%"
+        },
+        {
+          "income_slab": "₹ 9,00,001 - ₹ 12,00,000",
+          "tax_rate": "20%"
+        },
+        {
+          "income_slab": "Above ₹ 15,00,000",
+          "tax_rate": "30%"
+        }
+      ],
+      "individuals_above_80": [
+        {
+          "income_slab": "Up to ₹ 5,00,000",
+          "tax_rate": "Nil"
+        },
+        {
+          "income_slab": "Above ₹ 5,00,000",
+          "tax_rate": "20%"
+        }
+      ]
+    }
+  },
+  "surcharge_and_cess": {
+    "surcharge": {
+      "description": "Additional tax on income exceeding ₹ 50 lakh.",
+      "old_tax_regime": {
+        "up_to_50_lakh": "Nil",
+        "above_50_lakh_up_to_1_crore": "10%",
+        "above_1_crore_up_to_2_crore": "15%",
+        "above_2_crore_up_to_5_crore": "25%",
+        "above_5_crore": "37%"
+      },
+      "new_tax_regime": {
+        "up_to_50_lakh": "Nil",
+        "above_50_lakh_up_to_1_crore": "10%",
+        "above_1_crore_up_to_2_crore": "15%",
+        "above_2_crore_up_to_5_crore": "25%",
+        "above_5_crore": "25%"
+      },
+      "note": "The enhanced surcharge of 25% & 37%, as the case may be, is not levied from income chargeable to tax under sections 111A, 112, 112A and Dividend Income. Hence, the maximum rate of surcharge on tax payable on such incomes shall be 15%, except when the income is taxable under sections 115A, 115AB, 115AC, 115ACA, and 115E."
+    },
+    "health_and_education_cess": {
+      "description": "Additional charge on income tax.",
+      "percentage": "4%"
+    }
+  },
+  "rebate": {
+    "section_87A": {
+      "old_tax_regime": {
+        "maximum_limit": 12500,
+        "applicable_income_limit": 500000
+      },
+      "new_tax_regime": {
+        "maximum_limit": 25000,
+        "applicable_income_limit": 700000
+      }
+    }
+  },
+  "tax_deductions": {
+    "section_24b": {
+      "description": "Deduction from Income from House Property on interest paid on housing loan & housing improvement loan.",
+      "self_occupied": {
+        "on_or_after_1999": {
+          "construction_or_purchase": 200000,
+          "repairs": 30000
+        },
+        "before_1999": {
+          "construction_or_purchase": 30000,
+          "repairs": 30000
+        }
+      },
+      "let_out": {
+        "any_time": {
+          "construction_or_purchase": "Actual value without any limit"
+        }
+      }
+    },
+    "chapter_VIA": {
+      "description": "Tax deductions specified under Chapter VIA of the Income Tax Act.",
+      "applicability": "Not available for taxpayers opting for New Tax Regime u/s 115BAC, except for u/s 80CCD (2) and 80CCH.",
+      "sections": {
+        "80C": {
+          "description": "Deduction towards payments made to Life Insurance Premium, Provident Fund, Subscription to certain equity shares, Tuition Fees, etc.",
+          "maximum_limit": 150000
+        },
+        "80CCC": {
+          "description": "Annuity plan of LIC or other insurer towards Pension Scheme.",
+          "maximum_limit": 150000
+        },
+        "80CCD1": {
+          "description": "Pension Scheme of Central Government.",
+          "maximum_limit": 150000
+        },
+        "80CCD1B": {
+          "description": "Deduction towards payments made to Pension Scheme of Central Government, excluding deduction claimed under 80CCD (1).",
+          "maximum_limit": 50000
+        },
+        "80CCD2": {
+          "description": "Deduction towards contribution made by an employer to the Pension Scheme of Central Government.",
+          "limits": {
+            "PSU_Others": "10% of salary",
+            "Central_State_Government": "14% of salary"
+          }
+        },
+        "80CCH": {
+          "description": "Deduction in respect of contribution to Agnipath Scheme.",
+          "conditions": "Whole amount paid or deposited in Agniveer Corpus Fund."
+        },
+        "80D": {
+          "description": "Deduction towards payments made to Health Insurance Premium & Preventive Health checkup.",
+          "limits": {
+            "self_spouse_children": 50000,
+            "parents": 50000
+          }
+        },
+        "80DD": {
+          "description": "Deduction towards maintenance or medical treatment of a Disabled Dependent.",
+          "limits": {
+            "normal_disability": 75000,
+            "severe_disability": 125000
+          }
+        },
+        "80DDB": {
+          "description": "Deduction for medical treatment of self or dependent for specified diseases.",
+          "limits": {
+            "normal": 40000,
+            "senior_citizen": 100000
+          }
+        },
+        "80E": {
+          "description": "Deduction towards interest payments made on loan for higher education of self or relative.",
+          "limits": "Total amount paid towards interest on loan taken."
+        },
+        "80EE": {
+          "description": "Deduction towards interest payments made on loan taken for acquisition of residential house property where the loan is sanctioned between 1st April 2016 to 31st March 2017.",
+          "maximum_limit": 50000
+        },
+        "80EEA": {
+          "description": "Deduction available only to individuals towards interest payments made on loan taken for acquisition of residential house property for the first time where the loan is sanctioned between 1st April 2019 to 31st March 2022.",
+          "maximum_limit": 150000
+        },
+        "80EEB": {
+          "description": "Deduction towards interest payments made on loan for purchase of Electric Vehicle where the loan is sanctioned between 1st April 2019 to 31st March 2023.",
+          "maximum_limit": 150000
+        },
+        "80G": {
+          "description": "Deduction towards Donations made to prescribed Funds, Charitable Institutions, etc.",
+          "cash_donation_limit": 2000
+        },
+        "80GG": {
+          "description": "Deduction towards rent paid for house applicable to only those who are self-employed or for whom HRA is not part of Salary.",
+          "limits": {
+            "least_of": [
+              "Rent paid reduced by 10% of Total Income before this deduction",
+              5000,
+              "25% of Total Income excluding long-term capital gains"
+            ]
+          }
+        },
+        "80GGA": {
+          "description": "Deduction towards Donations made for Scientific Research or Rural Development.",
+          "cash_donation_limit": 2000
+        },
+        "80GGC": {
+          "description": "Deduction towards Donations made to Political Party or Electoral Trust."
+        },
+        "80TTA": {
+          "description": "Deduction on interest received on saving bank accounts by Non-Senior Citizens.",
+          "maximum_limit": 10000
+        },
+        "80TTB": {
+          "description": "Deduction on interest received on deposits by Resident Senior Citizens.",
+          "maximum_limit": 50000
+        },
+        "80U": {
+          "description": "Deductions for a resident individual taxpayer with Disability.",
+          "limits": {
+            "normal_disability": 75000,
+            "severe_disability": 125000
+          }
+        }
+      }
+    }
+  }
+}
