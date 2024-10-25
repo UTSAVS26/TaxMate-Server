@@ -1,3 +1,4 @@
+# Server Dockerfile
 # Use Python 3.9 (or preferred version)
 FROM python:3.9
 
@@ -5,11 +6,11 @@ FROM python:3.9
 WORKDIR /app
 
 # Copy the requirements file and install dependencies
-COPY server/requirements.txt .
+COPY server/requirements.txt . 
 RUN pip install -r requirements.txt
 
 # Copy the application code into the container
-COPY server/ .
+COPY server/ . 
 
 # Expose port 5000 for Flask
 EXPOSE 5000
